@@ -1,0 +1,18 @@
+locales:
+  fo:
+    name: Faroese Keyboards
+    description: >-
+      Mobile OS keyboards for the Faroese language from the Divvun group
+      at UiT.
+  en:
+    name: Faroese Keyboards
+    description: >-
+      Mobile OS keyboards for the Faroese language from the Divvun group
+      at UiT.
+  nb:
+    name: Faroese tastatur
+    description: Mobiltastatur for Faroese fra Divvun-gruppa.
+author: 'The Divvun Group, UiT Norgga árktalaš universitehta'
+copyright: (c) 2017 Divvun/Giellatekno/UiT
+email: feedback@divvun.no
+organisation: UiT Norgga árktalaš universitehta

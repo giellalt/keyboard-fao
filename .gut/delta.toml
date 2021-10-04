@@ -1,0 +1,8 @@
+template = ""
+rev_id = 4
+template_sha = "6b1cd6dd901ea8386e9f1a3126c5cf6ad380d8e2"
+
+[replacements]
+__UND2C__ = "fo"
+__UNDEFINED__ = "Faroese"
+__UND__ = "fao"
