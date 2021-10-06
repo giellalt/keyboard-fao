@@ -173,8 +173,8 @@ transforms:
     'Y': Ý
 
 strings:
-  space: gaska
-  return: "linnjá\u00ADmolsun"
+  space: millumrúm
+  return: "reglu\u00ADbrot"
 
 targets:
   win:
