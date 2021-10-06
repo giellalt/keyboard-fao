@@ -143,19 +143,34 @@ longpress:
   '''': '‚ ‘ ’'
 
 deadKeys:
-  mac:
+  ios:
     default: [´]
-    shift: ['`']
+    shift: [´]
     caps: [´]
-    alt: ['-', ¨, ƒ, ʼ, ˀ, ˆ, ˇ, ˘, ˙, ˚, ˝]
-    alt+shift: [ʔ, №]
-    caps+alt: ['-', ¸, ƒ, ˀ, ˆ, ˇ, ˘, ˙, ˚, ˝]
-    cmd+alt: [¸, ƒ, ˙]
-  win:
-    shift: ['`']
-    caps+shift: ['`']
-    alt: ['~', ¨, ´]
-    alt+shift: [^, ˇ]
+  android:
+    default: [´]
+    shift: [´]
+    caps: [´]
+
+transforms:
+  ´:
+    ' ': ´
+    a: á
+    A: Á
+    æ: ǽ
+    Æ: Ǽ
+    e: é
+    E: É
+    i: í
+    I: Í
+    o: ó
+    O: Ó
+    ø: ǿ
+    Ø: Ǿ
+    u: ú
+    U: Ú
+    'y': ý
+    'Y': Ý
 
 strings:
   space: gaska
