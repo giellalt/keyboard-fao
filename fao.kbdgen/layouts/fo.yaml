@@ -178,8 +178,8 @@ strings:
 
 targets:
   chrome:
-    locale: "en"
-    xkbLayout: "en"
+    locale: "da"
+    xkbLayout: "da"
   ios:
     spellerPackageKey: https://pahkat.uit.no/main/packages/speller-fao?channel=nightly&platform=mobile
     spellerPath: fo.bhfst
