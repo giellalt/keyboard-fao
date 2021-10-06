@@ -177,8 +177,6 @@ strings:
   return: "reglu\u00ADbrot"
 
 targets:
-  win:
-    locale: fo-Latn-US
   chrome:
     locale: "en"
     xkbLayout: "en"
