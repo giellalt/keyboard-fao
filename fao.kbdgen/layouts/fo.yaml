@@ -7,20 +7,20 @@ modes:
     default: |
       q w e r t y u i o p ð
       a s d f g h j k l æ ø
-      z x c v b n m
+        z x c v b n m ´
     shift: |
       Q W E R T Y U I O P Ð
       A S D F G H J K L Æ Ø
-         Ž Z Č C V B N M
+        Z X C V B N M ´
   ios:
     default: |
       q w e r t y u i o p ð
       a s d f g h j k l æ ø
-      \s{shift:1.25} \s{spacer:0.25} z x c v b n m \s{spacer:0.25} \s{backspace:1.25}
+      \s{shift:1.25} \s{spacer:0.25} z x c v b n m ´ \s{spacer:0.25} \s{backspace:1.25}
     shift: |
-      Á Š E R T Y U I O P Ŋ
-      A S D F G H J K L Đ Ŧ
-      \s{shift:1.25} \s{spacer:0.25} Ž Z Č C V B N M \s{spacer:0.25} \s{backspace:1.25}
+      Q W E R T Y U I O P Ð
+      A S D F G H J K L Æ Ø
+      \s{shift:1.25} \s{spacer:0.25} Z X C V B N M ´ \s{spacer:0.25} \s{backspace:1.25}
     symbols-1: |
       1 2 3 4 5 6 7 8 9 0
       - / : ; ( ) kr & @ "
