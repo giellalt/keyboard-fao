@@ -1,5 +1,9 @@
-name: "Build Keyboard"
-on: [push, repository_dispatch]
+name: "Build Keyboards"
+on:
+  push:
+    paths:
+      - ‘!docs/**’
+  repository_dispatch:
 
 jobs:
   build:
