@@ -1,157 +1,139 @@
 displayNames:
-  'fo': Faroese
+  fo: Faroese
   en: Faroese
-
-modes:
-  android:
-    default: |
-      q w e r t y u i o p ð
-      a s d f g h j k l æ ø
-        z x c v b n m ´
-    shift: |
-      Q W E R T Y U I O P Ð
-      A S D F G H J K L Æ Ø
-        Z X C V B N M ´
-  ios:
-    default: |
-      q w e r t y u i o p ð
-      a s d f g h j k l æ ø
-      \s{shift:1.25} \s{spacer:0.25} z x c v b n m ´ \s{spacer:0.25} \s{backspace:1.25}
-    shift: |
-      Q W E R T Y U I O P Ð
-      A S D F G H J K L Æ Ø
-      \s{shift:1.25} \s{spacer:0.25} Z X C V B N M ´ \s{spacer:0.25} \s{backspace:1.25}
-    symbols-1: |
-      1 2 3 4 5 6 7 8 9 0
-      - / : ; ( ) kr & @ "
-      \s{shiftSymbols} \s{spacer:0.25} . , ? ! ' \s{spacer:0.25} \s{backspace}
-    symbols-2: |
-      [ ] { } # % ^ * + =
-      _ \ | ~ < > € $ £ •
-      \s{shiftSymbols} \s{spacer:0.25} . , ? ! ' \s{spacer:0.25} \s{backspace}
-  ipad-9in:
-    default: |
-      \s{"`":0.75}  q w e r t y u i o p ð \s{backspace:1.25}
-      \s{shift}     a s d f g h j k l æ ø \s{shift}
-      \s{spacer:0.5}  ž z č c v b n m , . \s{spacer:0.5} \s{return:2}
-    shift: |
-      \s{"@":0.75}  Q W E R T Y U I O P Ð \s{backspace:1.25}
-      \s{shift}     A S D F G H J K L Æ Ø \s{shift}
-      \s{spacer:0.5}  Ž Z Č C V B N M ! ? \s{spacer:0.5} \s{return:2}
-    alt: |
-      \s{"@":0.75}  1 2 3  4 5 6 7 8 9 0 å \s{backspace:1.25}
-      \s{shift}     % # kr & * ( ) ' " ø æ \s{shift}
-      \s{spacer:0.5}  q w  x - = / ; : ! ? \s{spacer:0.5} \s{return:2}
-    alt+shift: |
-      \s{"@":0.75}  1 2 3  4 5 6 7 8 9 0 Å \s{backspace:1.25}
-      \s{shift}     % # kr & * ( ) ' " Ø Æ \s{shift}
-      \s{spacer:0.5}  Q W  X - = / ; : ! ? \s{spacer:0.5} \s{return:2}
-    symbols-1: |
-      \s{spacer:0.75} 1 2 3 4 5 6 7 8 9 0 ` \s{backspace:1.25}
-      \s{shiftSymbols} @ # kr & * ( ) ' " + • \s{shiftSymbols}
-      \s{spacer:1.5} % _ - = / ; : , . \s{spacer:0.5} \s{return:2}
-    symbols-2: |
-      \s{spacer:0.75}  1 2 3 4 5 6 7 8 9 0 ´ \s{backspace:1.25}
-      \s{shiftSymbols} € $ £ ^ [ ] { } — ° … \s{shiftSymbols}
-      \s{spacer:1.5}    § | ~ ≠ \ < > ! ?    \s{spacer:0.5} \s{return:2}
-  ipad-12in:
-    default: |
-      ' 1 2 3 4 5 6 7 8 9 0 + ´ \s{backspace:1.5}
-      \s{spacer:1.5} q w e r t y u i o p ð
-      \s{caps:1.75} a s d f g h j k l æ ø \s{return:1.75}
-      \s{shift:1.25} ž z č c v b n m , . - \s{shift:2.25}
-    shift: |
-      § ! " # kr % & / ( ) = ? ` \s{backspace:1.5}
-      \s{spacer:1.5} Q W E R T Y U I O P Ð
-      \s{caps:1.75} A S D F G H J K L Æ Ø \s{return:1.75}
-      \s{shift:1.25} Ž Z Č C V B N M ; : _ \s{shift:2.25}
-    alt: |
-      § ! " # kr % & / ( ) = ? ` \s{backspace:1.5}
-      \s{spacer:1.5} q w e r t y u i o p ð
-      \s{caps:1.75} a s d f g h j k l ä ö \s{return:1.75}
-      \s{shift:1.25} < z x c v b n m ; : _ \s{shift:2.25}
-    alt+shift: |
-      § ! " # kr % & / ( ) = ? ` \s{backspace:1.5}
-      \s{spacer:1.5} Q W E R T Y U I O P Ð
-      \s{caps:1.75} A S D F G H J K L Ä Ö \s{return:1.75}
-      \s{shift:1.25} > Z X C V B N M ; : _ \s{shift:2.25}
-    symbols-1: |
-      ` 1 2 3 4 5 6 7 8 9 0 < > \s{backspace:1.5}
-      \s{spacer:1.5} [ ] { } # % ^ * + = \ | ~
-      \s{spacer:1.75} - / : ; ( ) kr & @ $ £ \s{return:1.75}
-      \s{spacer:3.25} … . , ? ! ' " _ € \s{spacer:2.25}
-  chrome:
-    default: |
-      | 1 2 3 4 5 6 7 8 9 0 + \
-      q w e r t y u i o p å ð
-      a s d f g h j k l æ ø '
-      < z x c v b n m , . -
-    shift: |
-      § ! " # ¤ % & / ( ) = ? `
-      Á Š E R T Y U I O P Å Ð
-      A S D F G H J K L Æ Æ *
-      > Z X C V B N M ; : _
-    caps: |
-      | 1 2 3 4 5 6 7 8 9 0 + \
-      Á Š E R T Y U I O P Å Ð
-      A S D F G H J K L Æ Æ *
-      > Z X C V B N M ; : _
-    caps+shift: |
-      § ! " # ¤ % & / ( ) = ? `
-      q w e r t y u i o p å ð
-      a s d f g h j k l æ ø '
-      < z x c v b n m , . -
-    alt: |
-      \u{0} \u{0} @ £ $ € \u{0} { [ ] } \u{0} ´
-      q w € \u{0} ŧ \u{0} \u{0} ï õ \u{0} ¨ ~
-      â \u{0} \u{0} \u{0} ǧ ǥ \u{0} ǩ \u{0} ö ä '
-      ǯ ʒ x \u{0} \u{0} \u{0} \u{0} µ < > \u{0}
-    alt+shift: |
-      \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0}
-      Q W \u{0} \u{0} Ŧ \u{0} \u{0} Ï Õ \u{0} ^ ˇ
-      Â \u{0} \u{0} \u{0} Ǧ Ǥ \u{0} Ǩ \u{0} Ö Ä *
-      Ǯ Ʒ X \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0}
-
-longpress:
-  A: Á 
-  E: É
-  I: Í
-  O: Ó
-  U: Ú Ü 
-  Y: Ý
-  Æ: Ä
-  Ø: Ö
-
-  a: á 
-  e: é
-  i: í
-  o: ó
-  u: ú ü 
-  y: ý
-  æ: ä
-  ø: ö
-
-
-  '%': ‰ ∞
-  '=': ≠ ≈
-  '-': • – —
-  '&': §
-  '?': ¿
-  '!': ¡
-  '.': ', ; : ? ! ¿ ¡'
-  '"': '„ “ ” « »'
-  '''': '‚ ‘ ’'
-
-deadKeys:
-  ios:
-    default: [´]
-    shift: [´]
-    caps: [´]
-  android:
-    default: [´]
-    shift: [´]
-    caps: [´]
-
+android:
+  config:
+    spellerPackageKey: https://pahkat.uit.no/main/packages/speller-fao?channel=nightly&platform=mobile
+    spellerPath: fo.bhfst
+  primary:
+    layers:
+      default: |
+        q w e r t y u i o p ð
+        a s d f g h j k l æ ø
+        \s{shift} z x c v b n m ´ \s{backspace}
+      shift: |
+        Q W E R T Y U I O P Ð
+        A S D F G H J K L Æ Ø
+        \s{shift} Z X C V B N M ´ \s{backspace}
+  deadKeys:
+    default: ['´']
+    shift: ['´']
+    caps: ['´']
+iOS:
+  config:
+    spellerPackageKey: https://pahkat.uit.no/main/packages/speller-fao?channel=nightly&platform=mobile
+    spellerPath: fo.bhfst
+  primary:
+    layers:
+      default: |
+        q w e r t y u i o p ð
+        a s d f g h j k l æ ø
+        \s{shift:1.25} \s{spacer:0.25} z x c v b n m ´ \s{spacer:0.25} \s{backspace:1.25}
+      shift: |
+        Q W E R T Y U I O P Ð
+        A S D F G H J K L Æ Ø
+        \s{shift:1.25} \s{spacer:0.25} Z X C V B N M ´ \s{spacer:0.25} \s{backspace:1.25}
+      symbols-1: |
+        1 2 3 4 5 6 7 8 9 0
+        - / : ; ( ) kr & @ "
+        \s{shiftSymbols} \s{spacer:0.25} . , ? ! ' \s{spacer:0.25} \s{backspace}
+      symbols-2: |
+        [ ] { } # % ^ * + =
+        _ \ | ~ < > € $ £ •
+        \s{shiftSymbols} \s{spacer:0.25} . , ? ! ' \s{spacer:0.25} \s{backspace}
+  iPad-9in:
+    layers:
+      default: |
+        \s{"`":0.75}  q w e r t y u i o p ð \s{backspace:1.25}
+        \s{shift}     a s d f g h j k l æ ø \s{shift}
+        \s{spacer:0.5}  ž z č c v b n m , . \s{spacer:0.5} \s{return:2}
+      shift: |
+        \s{"@":0.75}  Q W E R T Y U I O P Ð \s{backspace:1.25}
+        \s{shift}     A S D F G H J K L Æ Ø \s{shift}
+        \s{spacer:0.5}  Ž Z Č C V B N M ! ? \s{spacer:0.5} \s{return:2}
+      alt: |
+        \s{"@":0.75}  1 2 3  4 5 6 7 8 9 0 å \s{backspace:1.25}
+        \s{shift}     % # kr & * ( ) ' " ø æ \s{shift}
+        \s{spacer:0.5}  q w  x - = / ; : ! ? \s{spacer:0.5} \s{return:2}
+      alt+shift: |
+        \s{"@":0.75}  1 2 3  4 5 6 7 8 9 0 Å \s{backspace:1.25}
+        \s{shift}     % # kr & * ( ) ' " Ø Æ \s{shift}
+        \s{spacer:0.5}  Q W  X - = / ; : ! ? \s{spacer:0.5} \s{return:2}
+      symbols-1: |
+        \s{spacer:0.75} 1 2 3 4 5 6 7 8 9 0 ` \s{backspace:1.25}
+        \s{shiftSymbols} @ # kr & * ( ) ' " + • \s{shiftSymbols}
+        \s{spacer:1.5} % _ - = / ; : , . \s{spacer:0.5} \s{return:2}
+      symbols-2: |
+        \s{spacer:0.75}  1 2 3 4 5 6 7 8 9 0 ´ \s{backspace:1.25}
+        \s{shiftSymbols} € $ £ ^ [ ] { } — ° … \s{shiftSymbols}
+        \s{spacer:1.5}    § | ~ ≠ \ < > ! ?    \s{spacer:0.5} \s{return:2}
+  iPad-12in:
+    layers:
+      default: |
+        ' 1 2 3 4 5 6 7 8 9 0 + ´ \s{backspace:1.5}
+        \s{spacer:1.5} q w e r t y u i o p ð
+        \s{caps:1.75} a s d f g h j k l æ ø \s{return:1.75}
+        \s{shift:1.25} ž z č c v b n m , . - \s{shift:2.25}
+      shift: |
+        § ! " # kr % & / ( ) = ? ` \s{backspace:1.5}
+        \s{spacer:1.5} Q W E R T Y U I O P Ð
+        \s{caps:1.75} A S D F G H J K L Æ Ø \s{return:1.75}
+        \s{shift:1.25} Ž Z Č C V B N M ; : _ \s{shift:2.25}
+      alt: |
+        § ! " # kr % & / ( ) = ? ` \s{backspace:1.5}
+        \s{spacer:1.5} q w e r t y u i o p ð
+        \s{caps:1.75} a s d f g h j k l ä ö \s{return:1.75}
+        \s{shift:1.25} < z x c v b n m ; : _ \s{shift:2.25}
+      alt+shift: |
+        § ! " # kr % & / ( ) = ? ` \s{backspace:1.5}
+        \s{spacer:1.5} Q W E R T Y U I O P Ð
+        \s{caps:1.75} A S D F G H J K L Ä Ö \s{return:1.75}
+        \s{shift:1.25} > Z X C V B N M ; : _ \s{shift:2.25}
+      symbols-1: |
+        ` 1 2 3 4 5 6 7 8 9 0 < > \s{backspace:1.5}
+        \s{spacer:1.5} [ ] { } # % ^ * + = \ | ~
+        \s{spacer:1.75} - / : ; ( ) kr & @ $ £ \s{return:1.75}
+        \s{spacer:3.25} … . , ? ! ' " _ € \s{spacer:2.25}
+  deadKeys:
+    default: ['´']
+    shift: ['´']
+    caps: ['´']
+chromeOS:
+  config:
+    locale: da
+    xkbLayout: da
+  primary:
+    layers:
+      default: |
+        | 1 2 3 4 5 6 7 8 9 0 + \
+        q w e r t y u i o p å ð
+        a s d f g h j k l æ ø '
+        < z x c v b n m , . -
+      shift: |
+        § ! " # ¤ % & / ( ) = ? `
+        Á Š E R T Y U I O P Å Ð
+        A S D F G H J K L Æ Æ *
+        > Z X C V B N M ; : _
+      caps: |
+        | 1 2 3 4 5 6 7 8 9 0 + \
+        Á Š E R T Y U I O P Å Ð
+        A S D F G H J K L Æ Æ *
+        > Z X C V B N M ; : _
+      caps+shift: |
+        § ! " # ¤ % & / ( ) = ? `
+        q w e r t y u i o p å ð
+        a s d f g h j k l æ ø '
+        < z x c v b n m , . -
+      alt: |
+        \u{0} \u{0} @ £ $ € \u{0} { [ ] } \u{0} ´
+        q w € \u{0} ŧ \u{0} \u{0} ï õ \u{0} ¨ ~
+        â \u{0} \u{0} \u{0} ǧ ǥ \u{0} ǩ \u{0} ö ä '
+        ǯ ʒ x \u{0} \u{0} \u{0} \u{0} µ < > \u{0}
+      alt+shift: |
+        \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0}
+        Q W \u{0} \u{0} Ŧ \u{0} \u{0} Ï Õ \u{0} ^ ˇ
+        Â \u{0} \u{0} \u{0} Ǧ Ǥ \u{0} Ǩ \u{0} Ö Ä *
+        Ǯ Ʒ X \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0}
 transforms:
   ´:
     ' ': ´
@@ -171,18 +153,33 @@ transforms:
     U: Ú
     'y': ý
     'Y': Ý
-
-strings:
+longpress:
+  A: Á
+  E: É
+  I: Í
+  O: Ó
+  U: Ú Ü
+  'Y': Ý
+  Æ: Ä
+  Ø: Ö
+  a: á
+  e: é
+  i: í
+  o: ó
+  u: ú ü
+  'y': ý
+  æ: ä
+  ø: ö
+  '%': ‰ ∞
+  =: ≠ ≈
+  '-': • – —
+  '&': §
+  '?': ¿
+  '!': ¡
+  '.': ', ; : ? ! ¿ ¡'
+  '"': „ “ ” « »
+  "'": ‚ ‘ ’
+keyNames:
   space: millumrúm
-  return: "reglu\u00ADbrot"
+  return: reglu\u00ADbrot
 
-targets:
-  chrome:
-    locale: "da"
-    xkbLayout: "da"
-  ios:
-    spellerPackageKey: https://pahkat.uit.no/main/packages/speller-fao?channel=nightly&platform=mobile
-    spellerPath: fo.bhfst
-  android:
-    spellerPackageKey: https://pahkat.uit.no/main/packages/speller-fao?channel=nightly&platform=mobile
-    spellerPath: fo.bhfst
