@@ -1,7 +1,0 @@
-codeSignId: 'Developer ID Installer: The University of Tromso (2K5J2584NX)'
-provisioningProfileId: Test
-packageId: no.uit.giella.keyboards.fao
-bundleName: Faroese Keyboards
-icon: images/fao-keyboard-menu-icon.png
-version: 0.1.0
-build: 1
