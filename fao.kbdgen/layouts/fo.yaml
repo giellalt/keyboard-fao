@@ -105,9 +105,9 @@ iOS:
         \s{spacer:1.75} - / : ; ( ) kr & @ $ £ \s{return:1.75}
         \s{spacer:3.25} … . , ? ! ' " _ € \s{spacer:2.25}
   deadKeys:
-    default: ['´']
-    shift: ['´']
-    caps: ['´']
+    default: ['´', 'a', 'e', 'i', 'o', 'u', 'y']
+    shift:   ['´', 'A', 'E', 'I', 'O', 'U', 'Y']
+    caps:    ['´', 'A', 'E', 'I', 'O', 'U', 'Y']
 chromeOS:
   config:
     locale: da
@@ -163,6 +163,43 @@ transforms:
     U: Ú
     'y': ý
     'Y': Ý
+  a:
+    ' ': a
+    '´': á
+  e:
+    ' ': e
+    '´': é
+  i:
+    ' ': i
+    '´': í
+  o:
+    ' ': o
+    '´': ó
+  u:
+    ' ': u
+    '´': ú
+  'y':
+    ' ': 'y'
+    '´': ý
+  A:
+    ' ': A
+    '´': Á
+  E:
+    ' ': E
+    '´': É
+  I:
+    ' ': I
+    '´': Í
+  O:
+    ' ': O
+    '´': Ó
+  U:
+    ' ': U
+    '´': Ú
+  'Y':
+    ' ': 'Y'
+    '´': Ý
+
 longpress:
   A: Á
   E: É
