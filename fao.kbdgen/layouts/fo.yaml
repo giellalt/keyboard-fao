@@ -191,5 +191,5 @@ longpress:
   "'": ‚ ‘ ’
 keyNames:
   space: millumrúm
-  return: reglu\u00ADbrot
+  return: "reglu\u00ADbrot"
 
