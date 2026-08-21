@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # Documentation for the Faroese keyboards
 
 ## Layouts
